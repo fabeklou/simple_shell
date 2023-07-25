@@ -14,10 +14,10 @@
  */
 int main(int ac, char **av, char **env)
 {
-	(void)av;
-	(void)ac;
 	char **args, **path, *line;
 	int count = 0, status = 0;
+	(void)av;
+	(void)ac;
 
 	signal(SIGINT, _handle_signal);
 
